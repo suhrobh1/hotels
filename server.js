@@ -95,5 +95,5 @@ app.get("/health", (req, res) => {
 
 const PORT = process.env.PORT || 3006;
 app.listen(PORT, () => {
-  console.log(`places microservice running on port ${PORT}`);
+  console.log(`Hotels microservice running on port ${PORT}`);
 });
