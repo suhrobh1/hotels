@@ -42,7 +42,8 @@ app.post("/hotels", async (req, res) => {
             params: {
               ll: `${latitude},${longitude}`,
               radius: 10000,
-              categories: "19014", // Landmarks, museums, historical buildings
+              //categories: "19014", // Hotels
+              categories: "16000", // Landmarks, museums, historical buildings
               limit: 20,
             },
           });
@@ -56,7 +57,8 @@ app.post("/hotels", async (req, res) => {
           params: {
             ll: `${latitude},${longitude}`,
             radius: 10000,
-            categories: "19014", // Landmarks, museums, historical buildings
+            //categories: "19014", // Hotels
+            categories: "16000", // Landmarks, museums, historical buildings
             limit: 20,
           },
         });
